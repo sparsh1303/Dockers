@@ -1,8 +1,8 @@
 pipeline {
 	agent any
-	triggers {
-	         cron('0 0 * * *') // Mid-night build
-	}
+	//triggers {
+	  //       cron('0 0 * * *') // Mid-night build
+	//}
 	// can also use ('H 0 * * *')         
  	stages {
  		stage("Compile") {
